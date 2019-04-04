@@ -8,11 +8,20 @@ To run the this command line interface storefront navigate into the `cli-mysql-s
 
 ![cli-mysql-storefront-how-to.gif](cli-mysql-storefront-how-to.gif)
 
+### Local Development Setup
+You will need MySql installed and setup on your local machine.
+
+Clone the repository locally from [github.com/QuantumPhilosophy/cli-mysql-storefront](https://github.com/QuantumPhilosophy/cli-mysql-storefront) using `git clone`.
+
+Then navigate into the cloned repository `cli-mysql-storefront` and run `npm install` to install dependencies.
+
+Setup the storefrontDB by running the `createStoreFrontDB.sql` in a MySql interface (e.g. Terminal, MySql Workbench)
+
 ### Node Packages Used
 #### chalk
 https://www.npmjs.com/package/chalk
 
-`chalk` was used to give color to specific portions of the strings in the `console.log()`s displaying information to the user.
+`chalk` is used to give color to specific portions of the strings in the `console.log()`s displaying information to the user.
 
 #### inquirer
 https://www.npmjs.com/package/inquirer
